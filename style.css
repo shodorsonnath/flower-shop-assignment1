@@ -151,7 +151,9 @@ body {
 .instgram-section-image {
     display: flex;
     gap: 20px;
-    margin: 50px 150px 100px 150px;
+    justify-content: center;
+    margin-bottom: 120px;
+    margin-top: 40px;
 }
 
 .instgram-section-image img {
@@ -194,7 +196,6 @@ body {
     text-align: left;
     font-size: 15px;
     margin-top: 0 px;
-
 }
 .box2 {
     width: 300px;
@@ -209,7 +210,6 @@ body {
     height: 70px;
     margin-bottom: 0px;
 }
-
 .box3 {
     width: 300px;
     height: 200px;
@@ -218,11 +218,11 @@ body {
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.15);
     padding: 20px;
 }
-
 .support-icon{
     width: 70px;
     height: 70px;
 }
+
 /* Get The Latest Deals */
 .get-latest-deals {
     background-image: url('./images/Rectangle\ 9.png');
