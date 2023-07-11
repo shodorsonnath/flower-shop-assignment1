@@ -69,7 +69,60 @@ body {
 
 /* Our Featured Flowers section design */
 .our-featured-flower {
-    margin-top: 150px;
+    margin-top: 130px;
+}
+
+.card-container {
+    margin-top: 50px;
+    margin-bottom: 180px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.card1 {
+    width: 320px;
+    height: 380px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+.card1-img {
+    max-width: 250px;
+    max-height: 300px;
+    margin-top: 80px;
+    margin-left: 50px;
+}
+.card-image-title {
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+.card2 {
+    width: 320px;
+    height: 380px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+.card2-img {
+    max-width: 280px;
+    max-height: 300px;
+    margin-top: 80px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+.card3 {
+    width: 320px;
+    height: 380px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+.card3-img {
+    max-width: 400px;
+    max-height: 320px;
+    margin-top: 60px;
+    margin-left: 60px;
+    
 }
 
 /* Hot deal! section design */
@@ -144,6 +197,7 @@ body {
     max-height: 400px;
     margin-top: 120px;
 }
+
 .footer-title {
     color: white;
     text-align: center;
@@ -152,9 +206,11 @@ body {
     margin-bottom: 0;
     padding-top: 100px;
 }
+
 .Footer-flower-text-color {
     color: #E55473;
 }
+
 .footer-description {
     color: white;
     text-align: center;
@@ -163,6 +219,7 @@ body {
     margin-top: 25px;
     margin-bottom: 30px;
 }
+
 .footer-copyright {
     color: rgba(255, 255, 255, 0.40);
     text-align: center;
