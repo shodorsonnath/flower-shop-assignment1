@@ -147,7 +147,6 @@ body {
 .instagram {
     margin-top: 120px;
 }
-
 .instgram-section-image {
     display: flex;
     gap: 20px;
@@ -155,7 +154,6 @@ body {
     margin-bottom: 120px;
     margin-top: 40px;
 }
-
 .instgram-section-image img {
     width: 250px;
     height: auto;
